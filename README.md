@@ -1,14 +1,14 @@
-Seoul-Bike-Sharing-Demand-Prediction
+# Seoul-Bike-Sharing-Demand-Prediction
 
-Problem Statement
+## Problem Statement
 
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
 
-Data Description:
+## Data Description:
 
 The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.
 
-Attribute Information:
+## Attribute Information:
 
 • Date : year-month-day
 
@@ -38,7 +38,7 @@ Attribute Information:
 
 • Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
-Data Pipeline:
+## Data Pipeline:
 
 ● Exploratory Data Analysis (EDA): In this part we have done some EDA on the features to see the trend.
 
@@ -46,7 +46,7 @@ Data Pipeline:
 
 ● Model Creation: Finally in this part we created the various models. These various models are being analysed and we tried to study various models so as to get the best performing model for our project.
 
-Observations:
+## Observations:
 
 ● Observation 1: In the Model Evaluation Matrices table, Linear Regression, KNN is not giving great results.
 
@@ -54,7 +54,7 @@ Observations:
 
 ● Observation 3: We are getting the best results from lightGBM and CatBoost.
 
-Conclusions:
+## Conclusions:
 
 ● We started with loading the data, then we did Exploratory Data Analysis (EDA), null values treatment, feature selection, encoding of categorical columns, and then model building. In all of these models, our accuracy ranges from 56% to 91%, which can be said to be good for such a large dataset. This performance could be due to various reasons like the proper pattern of data, large data, or because of the relevant features.
 
